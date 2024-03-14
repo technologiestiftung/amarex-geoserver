@@ -1,0 +1,11 @@
+<dataStore>
+  <name>amarex</name>
+  <type>KML</type>
+  <enabled>true</enabled>
+  <workspace>
+    <name>amarex</name>
+  </workspace>
+  <connectionParameters>
+    <entry key="url">file:///Users/guadaluperomero/ProjectsTSB/amarex/amarex-geoserver/data/map.kml</entry>
+  </connectionParameters>
+</dataStore>

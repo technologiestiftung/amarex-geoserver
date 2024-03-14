@@ -1,0 +1,39 @@
+<featureType>
+  <name>map</name>
+  <nativeName>map</nativeName>
+  <namespace>
+    <name>amarex</name>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://localhost:8080/geoserver/rest/namespaces/amarex.xml" type="application/xml"/>
+  </namespace>
+  <title>Amarex Layer</title>
+  <keywords>
+    <string>Features</string>
+    <string>amarex_layer</string>
+  </keywords>
+  <nativeCRS>EPSG:4326</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>369095.68</minx>
+    <maxx>5798276.88</maxx>
+    <miny>416868.30</miny>
+    <maxy>5839262.10</maxy>
+    <crs>EPSG:25832</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>NONE</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <name>storcitoh</name>
+  </store>
+  <type>KML</type>
+</featureType>
